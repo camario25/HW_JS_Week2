@@ -57,7 +57,10 @@ for (i = 0; i < animals.length; i++) {
 	myObject.newPropertyName = newValue; // or...
 	myObject['newPropertyName'] = newValue;
 */
-
+for (i = 0; i < animals.length; i++) {
+  animals[i].hunger = 10;
+}
+console.log(animals);
 /*
 	Part 4: These animals should be able to walk. Let's add a new "walk" property to them.
 	For each animal, the "walk" property should be a function that prints out a string that
