@@ -42,7 +42,12 @@ var mouse = {
 	Use a for-loop to iterate through the array of animals and have each animal make a noise.
 	Hint: Use the makeNoise() function for each animal in the array
 */
+var animals = [dog, cat, bird, mouse];
 
+for (i = 0; i < animals.length; i++) {
+  var noises = animals[i].makeNoise();
+  console.log(noises)
+}
 /*
 	Part 3: Let's see how hungry these animals get by adding a "hunger" property to them.
 	Use a for-loop to iterate through the array of animals and add a "hunger" property with
